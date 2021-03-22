@@ -6,3 +6,21 @@ body {
     width: 100px;
     height: auto;
 }
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/*pozwoli to na płynne przejście */
+html {
+    scroll-behavior: smooth;
+}
+
+
+    /*dodanie początkowe ukrycie przycisku */
+.scroll {
+    display: none;
+}
+
